@@ -1,26 +1,16 @@
 Kanji Grid
 ==========
 
-Improved/updated version of the original [Kanji Grid][0] addon for Anki 2.0.
+>[!IMPORTANT]
+>I'll make a PR into the @tsdko repo so hopefully that can remain the main one. If you somehow stumble on this before I do that, I am impressed.
 
-Differences from the original
------------------------------
+Another fork of kanjigrid, this time from @tsdko/kanjigrid. I was unable to get tsdko's fork working in recent Anki versions, so I used Claude to convert code to the latest Qt frameworks (Qt 6.9+ / PyQt 6.9+).
 
- - Compatible with Anki 2.1+
- - Jisho.org is used instead of WWWJDIC for links to kanji details
- - Updated kanji data
-   - 教育漢字 (2017)
-   - 常用漢字 (2010)
-   - 人名用漢字 (2017)
- - New features
-   - Changeable default settings
-   - Deck selection in the "Generate Kanji Grid" window
-   - Selecting multiple source fields
-   - Grouping by JLPT level
-   - Grouping by Kanji Kentei level
-   - Grouping by RTK volume
+Works to generate the grid, export as image, or export as HTML. All config options appear working.
 
-If you're still using Anki 2.0, use the `anki20` branch.
+> **Tested on**:<br>
+> Anki Version ⁨25.07.5 (7172b2d2)⁩<br>
+> Python 3.13.7 Qt 6.9.2 Chromium 130<br>
 
 License
 -------
